@@ -1,0 +1,169 @@
+.bg-animate{
+    background-position:0 0;
+    background-repeat:repeat-x;
+    animation:animatedBackground 70s linear infinite 
+}
+#confirm, #logs-invoice {
+    padding: 0 10px;
+    height: 100vh !important;
+}
+#confirm div, #logs-invoice div {
+    overflow: hidden !important;
+}
+#confirm .section-heading h4, #logs-invoice .section-heading h4 {
+    color: #121d33;
+}
+.butn.ver-btn,
+.butn.home-btn, .butn.phone-btn {
+    margin: 3vh 0 2vh;
+    color: #121d33 !important;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 12px;
+    box-shadow: 1px 1px 3px 1px rgba(18, 29, 51, 0.5) !important;
+}
+.butn.modal-btn {
+    margin: 3vh 0 1vh;
+    font-size: 22px;
+    cursor: pointer !important;
+    line-height: 35px;
+    white-space: nowrap !important;
+    padding: 7.5px 12px;
+}
+.invoice img {
+    width: 50px !important;
+    height: 50px !important;
+    margin: 21px 14px 0 !important;
+}
+@media screen and (max-width: 470px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .invoice img {
+        width: 52px !important;
+        height: 52px !important;
+        margin: 29px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 420px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 22px;
+        padding: 8px 12px;
+   }
+   .invoice img {
+        width: 51px !important;
+        height: 51px !important;
+        margin: 28px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 397px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 21px;
+        padding: 8px 12px;
+   }
+   .invoice img {
+        width: 50px !important;
+        height: 50px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 384px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20.5px;
+        padding: 7.5px 11.5px;
+   }
+   .invoice img {
+        width: 49px !important;
+        height: 49px !important;
+        margin: 27px 14px 0 !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    .butn.modal-btn,
+    .butn.ver-btn,
+    .butn.home-btn,
+    .butn.phone-btn {
+        font-size: 20px;
+        padding: 7px 11px;
+   }
+   .invoice img {
+        width: 48px !important;
+        height: 48px !important;
+        margin: 25px 14px 0 !important;
+    }
+}
+.butn.modal-btn img,
+.butn.ver-btn img,
+.butn.home-btn img, .butn.phone-btn img {
+    width: 27px;
+    border-radius: 4px;
+}
+#email-invoice, #phone-invoice, #anon-invoice {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 13px 3px !important;
+    margin-top: 23vh !important;
+    display: none;
+}
+#anon-invoice {
+    margin-top: 19vh !important;
+}
+#email-invoice {
+    margin-top: 17vh !important;
+}
+@media screen and (max-width: 821px) {
+    #anon-invoice {
+        margin-top: 20vh !important;
+    }
+    #email-invoice {
+        margin-top: 21vh !important;
+    }
+}
+@media screen and (max-width: 374px) {
+    #anon-invoice {
+        margin-top: 18vh !important;
+    }
+    #email-invoice {
+        margin-top: 21vh !important;
+    }
+}
+#email-invoice p, #phone-invoice p, #anon-invoice p {
+    margin: 10px auto 7px !important;
+    color: rgba(18, 29, 51, 0.92) !important;
+    font-size: 19px !important;
+    line-height: 37px !important;
+}
+@media screen and (max-width: 574px) {
+    #email-invoice p, #phone-invoice p, #anon-invoice p {
+        font-size: 18px !important;
+    }
+}
+#yourEmail, #yourPhone, #anon-invoice span {
+    font-weight: 600;
+    color: #121d33 !important;
+}
+#the-flag {
+    width: 20% !important;
+    border: 1.4px solid rgba(135, 206, 235, 0.7);
+    height: 57px !important;
+    margin: auto 7px !important;
+}
+
+.invoice {
+    display: flex;
+    margin-left: -14px !important;
+}
